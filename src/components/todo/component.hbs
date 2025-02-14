@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{title}}</title>
+  <!-- CSS 경로: component.html 기준으로 상대경로 -->
+  <link rel="stylesheet" href="../../clientlibs/css/main.css">
+</head>
+<body>
+  <div id="todo-component">
+    <h1>Todo List Component</h1>
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Enter a todo">
+      <button type="submit">Add</button>
+    </form>
+    <ul id="todo-list">
+      <!-- Todo 항목은 JS로 렌더링됩니다. -->
+    </ul>
+  </div>
+  <!-- JS 경로: component.html 기준으로 상대경로 -->
+  <script src="../../clientlibs/js/main.js"></script>
+</body>
+</html>
